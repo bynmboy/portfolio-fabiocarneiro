@@ -1,0 +1,33 @@
+/* colors
+#E27D5F #AC6047
+#85CDCA #69A2A0
+#E8A87C #AE7E5C
+#C38D9D #9E717E
+#40B3A2 #2D8376
+#7DC2AF
+#1BBEE2
+#FAC2C1
+*/
+
+@font-face {
+    font-family: 'ibm_mono_medium';
+    src: url(../../assets/fonts/ibmPlexMono/IBMPlexMono-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+.Body {
+    background-image: -moz-linear-gradient(90deg, #1BBEE2, #C38D9D);
+    min-height: 6rem;
+}
+
+.message {
+    font-family: 'ibm_mono_medium';
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0 5px 5px #FAC2C1;
+}
