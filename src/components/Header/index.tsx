@@ -8,11 +8,11 @@ function Header() {
         <div className="Header">
             <video className='bgVideo' src={videoBackground} autoPlay muted loop />
             <div className="textOnVideo">
-                <h1>Bem-vindo</h1>
-                <h3>ao meu site</h3>
-                <p>este site está em desenvolvimento!</p>
+                <h1 className='t1'>Bem-vindo</h1>
+                <h1 className='t2'>ao meu site</h1>
+                <p className='p1'>este site está em</p>
+                <p className='p2'>desenvolvimento!</p>
             </div>
-
         </div>
     )
 }

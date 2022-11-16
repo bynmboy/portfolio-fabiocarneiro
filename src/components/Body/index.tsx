@@ -11,7 +11,7 @@ function Body() {
                     minha capacidade de criar elementos visuais melhores
                 </p>
                 <p>
-                    feito com React + Vite por Fabio Carneiro.
+                    feito com React + Vite<br/>por Fabio Carneiro.
                 </p>
             </div>
         </div>

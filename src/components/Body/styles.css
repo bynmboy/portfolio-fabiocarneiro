@@ -21,18 +21,37 @@
 }
 
 .Body {
-    background-image: -moz-linear-gradient(90deg, #1BBEE2, #C38D9D);
-    min-height: 6rem;
+    background-image: -moz-linear-gradient(90deg, #1BBEE2, #d57fdd);
+    min-height: 180px;
+    height: 200px;
 }
 
 .message {
     font-family: 'ibm_mono_medium';
-    padding: 20px;
+    padding: 30px;
     text-align: center;
-    text-shadow: 0 5px 5px #FAC2C1;
+    text-shadow: 0 5px 5px #E8A87C;
     transition: all 1s;
 }
 
 .message:hover {
-    text-shadow: 0 5px 5px #c816d8;
+    text-shadow: 0 15px 25px #c816d8;
+}
+
+
+@media screen and (min-width: 50px) and (min-height: 50px) and (orientation: portrait) {
+    .Body {
+        height: 55vh;
+    }
+}
+
+@media screen and (min-width: 650px) and (min-height: 350px) and (max-height: 1000px) and (orientation: landscape) {
+
+    .Body {
+        height: 65vh;
+    }
+
+    .message p {
+        font-size: 80%;
+    }
 }
