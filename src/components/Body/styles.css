@@ -21,7 +21,7 @@
 }
 
 .Body {
-    background-image: linear-gradient(90deg, #1BBEE2, #d57fdd);
+    background-image: linear-gradient(0deg, #1BBEE2, #d57fdd);
     min-height: 180px;
     height: 200px;
 }
